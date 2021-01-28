@@ -1,0 +1,45 @@
+:root{
+      --primaryColor:#6e3300;
+      --second :#0b2452;
+      --lightText:rgb(255,255,255);
+      --primarietextlight:rgb(77, 145, 255);
+      --pramarDarkText:rgb(56, 31, 2);
+
+}
+body{
+      margin:0 auto;
+      padding: 0rem;
+}
+.inner{
+      padding: 0rem;
+      margin: 0  auto;
+}
+article{
+      background-color: var(--second);
+}
+button{
+      background-color: var(--second);
+      color: var(--primarietextlight);
+      border-radius: 0.25rem;
+      transition: 1200ms;
+}
+button:hover{
+      background-color: var(--primarietextlight);
+      color: var(--second);
+}
+button.secondary{
+      background-color: var(--primarietextlight);
+      color: var(--second);
+            transition: 1200ms;
+
+
+
+}
+button.secondary:hover{
+      background-color: var(--second);
+      color: var(--primarietextlight);
+
+}
+h1{
+      color: var(--second);
+}
