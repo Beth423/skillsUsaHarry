@@ -1,0 +1,30 @@
+
+
+/* Style Resets */
+html, body, div, article, section, footer {
+    background: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: navy;
+}
+
+nav, footer {
+    background: navy;
+}
+
+header nav ul {
+    display: flex;
+}
+
+article {
+    background: #fff;
+}
+
+header nav ul li {
+    list-style: none;
+    margin: 2rem;
+}
+
