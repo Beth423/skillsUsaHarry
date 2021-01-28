@@ -4,14 +4,14 @@ html, body, div, article, section, footer {
       background: none;
       margin: 0;
       padding: 0;
-  }
+      }
 
 
 :root{
       --primaryColor:#6e3300;
       --second :#0b2452;
       --lightText:rgb(255,255,255);
-      --primarietextlight:rgb(77, 145, 255);
+      --primarietextlight:rgb(170, 201, 250);
       --pramarDarkText:rgb(56, 31, 2);
 
 }
@@ -29,8 +29,11 @@ article{
 button{
       background-color: var(--second);
       color: var(--primarietextlight);
-      border-radius: 0.25rem;
-      transition: 1200ms;
+      border-radius:5px;
+      transition: 120ms;
+      padding: 0.5rem;
+      border-style: solid;
+      border-color: var(--primarietextlight);
 }
 button:hover{
       background-color: var(--primarietextlight);
@@ -39,9 +42,7 @@ button:hover{
 button.secondary{
       background-color: var(--primarietextlight);
       color: var(--second);
-            transition: 1200ms;
-
-
+      transition: 120ms;
 
 }
 button.secondary:hover{
@@ -53,16 +54,10 @@ h1{
       color: var(--second);
 }
 
-
-
-
-
-
 header nav ul {
       display: flex;
-  }
-   
-  header nav ul li {
+      }
+header nav ul li {
       list-style: none;
       margin: 2rem;
-  }
+      }
