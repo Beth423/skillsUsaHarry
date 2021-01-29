@@ -55,10 +55,14 @@ button.secondary:hover{
 h1{
       color: var(--second);
 }
-
+header {
+      background-color: var(--primarietextlight);
+}
 header nav ul {
       display: flex;
-      }
+      margin: 0;
+      padding: 0;
+}
 header nav ul li {
       list-style: none;
       padding: 1rem 2rem;
@@ -66,7 +70,7 @@ header nav ul li {
       width: 7rem;
       margin:none;
       transition: 200ms;
-      }
+}
 header nav ul li:hover{
       background-color: var(--second );
       color:var(--lightText)
