@@ -75,3 +75,7 @@ header nav ul li:hover{
       background-color: var(--second );
       color:var(--lightText)
 }
+a{
+      text-decoration: none;
+      color: var(--second);
+}
