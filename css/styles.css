@@ -1,10 +1,10 @@
 
 /* Style Resets */
-html, body, div, article, section, footer {
+html, body, div, article, section, footer, h1, h2, h3, h4, p {
       background: none;
       margin: 0;
       padding: 0;
-      }
+}
 
 
 :root{
