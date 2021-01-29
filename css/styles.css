@@ -22,6 +22,7 @@ body{
 .inner{
       padding: 0rem;
       margin: 0  auto;
+      max-width: 800px;
 }
 article{
       background-color: var(--second);
@@ -75,3 +76,4 @@ header nav ul li:hover{
       background-color: var(--second );
       color:var(--lightText)
 }
+

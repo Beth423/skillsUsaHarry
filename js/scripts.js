@@ -24,7 +24,7 @@ nav.appendChild(logoContainer);
 
 
 /* Create the nav bar */
-let menu_items = [["Home","/"], ["About","/about.html"], ["Sign the Petition","/petition.html"]];
+let menu_items = [["Home","/","home"], ["About","/about.html", "about"], ["Sign the Petition","/petition.html", "petition"]];
 //const nav = document.getElementsByTagName('nav')[0];
 let ul = document.createElement('ul');
 nav.appendChild(ul);
@@ -36,7 +36,7 @@ for(i=0; i<menu_items.length; i++){
     a.innerHTML = menu_items[i][0];
 
     //set active class to the correct menu item based on the html id
-    if (html.id == menu_items[i][0].toLowerCase())
+    if (html.id == menu_items[i][2].toLowerCase())
     {
         a.classList.add("active");
     }
@@ -51,3 +51,6 @@ for(i=0; i<menu_items.length; i++){
 const footer = document.getElementsByTagName('footer')[0];
 innerDiv = document.createElement('div');
 innerDiv.class = "inner";
+
+//set the copyright date.
+document.getElementById('copyDate').innerHTML() = Date().getFullYear();
