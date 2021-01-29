@@ -78,19 +78,29 @@ header nav ul li:hover{
       color:var(--lightText)
 }
 .navbar{
-
-}
-.navbar:hover{
-      
-}
-/* 
-a{
       padding: 1rem 2rem;
       background-color: var(--primarietextlight);
       width: 7rem;
       margin:none;
       transition: 200ms;
 }
-a:hover{
-      color: aliceblue;
-} */
+.navbar:hover{
+            color: aliceblue;
+
+}
+.darkbg a{
+      color:var(--primarietextlight) ;
+      text-decoration: none;
+      font-weight: bold;
+}
+.darkbg a:hover{
+      color:white;
+}
+.lightbg a {
+      color:rgb(37, 121, 255) ;
+;
+}
+.lightbg a:hover{
+      color:var(--primarietextlight) ;
+
+}
