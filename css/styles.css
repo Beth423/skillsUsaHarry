@@ -66,18 +66,28 @@ header nav ul {
 }
 header nav ul li {
       list-style: none;
+      padding: none;
+      margin: none;
+
+}
+header nav ul li:hover{
+      background-color: var(--second );
+      color:var(--lightText)
+}
+.navbar{
+
+}
+.navbar:hover{
+      
+}
+/* 
+a{
       padding: 1rem 2rem;
       background-color: var(--primarietextlight);
       width: 7rem;
       margin:none;
       transition: 200ms;
 }
-header nav ul li:hover{
-      background-color: var(--second );
-      color:var(--lightText)
-}
-
-a{
-      text-decoration: none;
-      color: var(--second);
-}
+a:hover{
+      color: aliceblue;
+} */
