@@ -59,7 +59,7 @@ h1{
 header {
       background-color: var(--primarietextlight);
 }
-header nav .inner {
+header .inner {
       padding: 0;
 }
 header nav ul {
