@@ -34,7 +34,7 @@ for(i=0; i<menu_items.length; i++){
     let a = document.createElement('a');
     a.href = menu_items[i][1];
     a.innerHTML = menu_items[i][0];
-
+    a.classList.add("navbar");
     //set active class to the correct menu item based on the html id
     if (html.id == menu_items[i][2].toLowerCase())
     {
@@ -53,4 +53,4 @@ innerDiv = document.createElement('div');
 innerDiv.class = "inner";
 
 //set the copyright date.
-document.getElementById('copyDate').innerHTML() = Date().getFullYear();
+copyYear.innerHTML = new Date().getFullYear();
