@@ -20,7 +20,7 @@ body{
       padding: 0rem;
 }
 .inner{
-      padding: 0rem;
+      padding: 1rem;
       margin: 0  auto;
       max-width: 800px;
 }
@@ -58,6 +58,9 @@ h1{
 }
 header {
       background-color: var(--primarietextlight);
+}
+header nav .inner {
+      padding: 0;
 }
 header nav ul {
       display: flex;
